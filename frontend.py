@@ -5,7 +5,7 @@ import requests
 st.set_page_config(page_title="Marathi Sentence Classifier", layout="centered")
 
 # Title and description
-st.title("🔍 Marathi Sentence Classification")
+st.title("🔍 वाणी AI")
 st.markdown("Enter a **Marathi sentence** below, and the model will classify it into different categories.")
 
 # Define specific task names
