@@ -54,7 +54,6 @@ class BertMultiOutputModel(PreTrainedModel):
             outs.append(out)
         return outs
 
-from transformers import AutoConfig, AutoModel
 
 AutoConfig.register("bert-multi-output", BertMultiOutputConfig)
 AutoModel.register(BertMultiOutputConfig, BertMultiOutputModel)
