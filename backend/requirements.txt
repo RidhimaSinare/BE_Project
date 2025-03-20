@@ -1,8 +1,0 @@
-fastapi
-uvicorn
-torch
-transformers
-streamlit
-requests
-huggingface_hub
-pydantic
